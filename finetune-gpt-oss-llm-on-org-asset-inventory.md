@@ -22,7 +22,7 @@ No prior fine-tuning experience needed. If you can run cells in a notebook and e
 
 ## Part 1: Why Not Just Run a Giant Model Locally?
 
-Here's the trap most organizations fall into: *"Let's just self-host a big general-purpose model and ask it everything."*
+The giant-model plan fails on both ends — it costs a fortune, and after all that spend it still can't tell you who owns the server beaconing at 2 AM. Size buys general intelligence. It does not buy your knowledge. Only your data can do that.
 
 Let's do the math on that.
 
