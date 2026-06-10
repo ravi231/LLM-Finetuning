@@ -1,0 +1,21 @@
+ip_address,hostname,asset_type,os,department,application,owner,criticality
+192.168.1.10,FIN-WEB-01,Windows Server,Windows Server 2025,Finance,Internal Financial Web App,Mr. Ravi,High
+192.168.1.11,FIN-DB-01,Windows Server,Windows Server 2022,Finance,Financial App SQL Database,Mr. Ravi,High
+192.168.1.25,HR-DB-02,Windows Server,Windows Server 2022,HR,HRMS Database,Ms. Priya,Medium
+192.168.1.30,HR-WEB-01,Windows Server,Windows Server 2019,HR,HRMS Web Portal,Ms. Priya,Medium
+10.10.5.40,LNX-PROXY-01,Linux Server,Ubuntu 22.04 LTS,IT Infrastructure,Squid Proxy,Mr. Ahmed,High
+10.10.5.41,LNX-DNS-01,Linux Server,Ubuntu 22.04 LTS,IT Infrastructure,Internal DNS (BIND9),Mr. Ahmed,High
+10.10.5.50,LNX-WEB-03,Linux Server,RHEL 9,Marketing,Corporate WordPress Site,Ms. Fatima,Low
+10.10.8.15,SIEM-SENT-01,Linux Server,Ubuntu 24.04 LTS,Security Operations,Microsoft Sentinel Log Forwarder (AMA),Mr. Ravi,Critical
+10.10.8.16,SIEM-LR-01,Windows Server,Windows Server 2022,Security Operations,LogRhythm Platform Manager,Mr. Ravi,Critical
+172.16.20.5,DC-PRIM-01,Windows Server,Windows Server 2025,IT Infrastructure,Active Directory Domain Controller (Primary),Mr. Ahmed,Critical
+172.16.20.6,DC-SEC-01,Windows Server,Windows Server 2025,IT Infrastructure,Active Directory Domain Controller (Secondary),Mr. Ahmed,Critical
+172.16.30.12,FILE-SRV-01,Windows Server,Windows Server 2019,Operations,Departmental File Shares,Mr. Joseph,Medium
+172.16.30.20,PRINT-SRV-01,Windows Server,Windows Server 2016,Operations,Print Server,Mr. Joseph,Low
+192.168.2.15,DEV-APP-01,Linux Server,Ubuntu 22.04 LTS,Engineering,Internal DevOps CI/CD (Jenkins),Ms. Anjali,Medium
+192.168.2.16,DEV-GIT-01,Linux Server,Ubuntu 22.04 LTS,Engineering,GitLab CE Source Repository,Ms. Anjali,High
+192.168.2.30,QA-TEST-01,Windows Server,Windows Server 2022,Engineering,QA Test Environment,Ms. Anjali,Low
+10.20.1.5,BKP-VEEAM-01,Windows Server,Windows Server 2022,IT Infrastructure,Veeam Backup & Replication,Mr. Ahmed,Critical
+10.20.1.10,VPN-GW-01,Network Appliance,FortiOS 7.4,IT Infrastructure,SSL VPN Gateway,Mr. Ahmed,Critical
+10.20.2.8,KIOSK-LOBBY-01,Windows Workstation,Windows 11 Enterprise,Facilities,Visitor Check-in Kiosk,Mr. Joseph,Low
+192.168.3.50,FIN-RPT-01,Windows Server,Windows Server 2022,Finance,Power BI Report Server,Mr. Ravi,Medium
